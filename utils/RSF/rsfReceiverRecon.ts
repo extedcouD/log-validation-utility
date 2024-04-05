@@ -4,7 +4,6 @@ import { isObjectEmpty } from '../index'
 import { validateSchema } from '../index'
 import { logger } from '../../shared/logger'
 import { CompareTimeStamps, checkCollectorAndReciverIdSettle } from './rsfHelpers'
-import { setValue } from 'shared/dao'
 
 const checkRsfReceiverRecon = (data: any) => {
   const rsfObj: any = {}
